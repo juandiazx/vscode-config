@@ -1,0 +1,24 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.editorAssociations": {
+    "*.bd": "default"
+  },
+  "extensions.ignoreRecommendations": true,
+  "editor.fontSize": 17,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "window.zoomLevel": 0.2,
+  "editor.codeLens": false,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true
+}
