@@ -20,5 +20,6 @@
   "window.zoomLevel": 0.2,
   "editor.codeLens": false,
   "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "workbench.editor.enablePreview": false
 }
