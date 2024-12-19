@@ -1,6 +1,14 @@
 {
-  "tabnine.experimentalAutoImports": true,
+  "vim.timeout": 200,
+  "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>", "l"]
+    }
+  ],
   "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "monospace",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "[html]": {
@@ -16,10 +24,17 @@
   "extensions.ignoreRecommendations": true,
   "editor.fontSize": 17,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.colorTheme": "Visual Studio Dark",
   "window.zoomLevel": 0.2,
   "editor.codeLens": false,
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "go.toolsManagement.autoUpdate": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.formatOnPaste": true,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false
 }
