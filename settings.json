@@ -1,14 +1,36 @@
 {
   "vim.timeout": 200,
   "vim.useSystemClipboard": true,
-    "vim.insertModeKeyBindings": [
+  "vim.insertModeKeyBindings": [
     {
       "before": ["k", "j"],
       "after": ["<Esc>", "l"]
     }
   ],
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.fontFamily": "monospace",
+  "workbench.colorCustomizations": {
+    "terminal.background":"#000000",
+    "terminal.foreground":"#CBD6E2",
+    "terminalCursor.background":"#CBD6E2",
+    "terminalCursor.foreground":"#CBD6E2",
+    "terminal.ansiBlack":"#0B1C2C",
+    "terminal.ansiBlue":"#8B56BF",
+    "terminal.ansiBrightBlack":"#627E99",
+    "terminal.ansiBrightBlue":"#8B56BF",
+    "terminal.ansiBrightCyan":"#568BBF",
+    "terminal.ansiBrightGreen":"#56BF8B",
+    "terminal.ansiBrightMagenta":"#BF568B",
+    "terminal.ansiBrightRed":"#BF8B56",
+    "terminal.ansiBrightWhite":"#F7F9FB",
+    "terminal.ansiBrightYellow":"#8BBF56",
+    "terminal.ansiCyan":"#568BBF",
+    "terminal.ansiGreen":"#56BF8B",
+    "terminal.ansiMagenta":"#BF568B",
+    "terminal.ansiRed":"#BF8B56",
+    "terminal.ansiWhite":"#CBD6E2",
+    "terminal.ansiYellow":"#8BBF56"
+  },
+  "terminal.integrated.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "[html]": {
@@ -36,5 +58,7 @@
   "editor.formatOnPaste": true,
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.cursorBlinking": true
 }
