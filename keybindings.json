@@ -48,5 +48,9 @@
     "key": "tab",
     "command": "tab",
     "when": "editorTextFocus && !suggestWidgetVisible && !inlineSuggestionVisible && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+k shift+j",
+    "command": "toggleVim"
   }
 ]
